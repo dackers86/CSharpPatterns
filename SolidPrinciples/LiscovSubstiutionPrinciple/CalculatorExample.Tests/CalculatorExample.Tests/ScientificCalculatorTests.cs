@@ -17,5 +17,13 @@ namespace CalculatorExample.Tests
             var result  = scientificCalculator.Add(2, 2);
             Assert.AreEqual(result, 4);
         }
+
+        [TestMethod]
+        public void WhenFindingTheSquareRoot_ItShouldProvideTheCorrectResult()
+        {
+            var scientificCalculator = new ScientificCalculator();
+            var result = scientificCalculator.SquareRoot(4);
+            Assert.AreEqual(result, 2);
+        }
     }
 }

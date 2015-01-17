@@ -8,5 +8,9 @@ namespace CalculatorExample.Domain
 {
     public class ScientificCalculator : Calculator
     {
+        public double SquareRoot(int number)
+        {
+            return Math.Sqrt(number);
+        }
     }
 }
