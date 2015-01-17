@@ -1,0 +1,5 @@
+C:\Code\Learning\CSharpPatterns\SolidPrinciples\LiscovSubstiutionPrinciple\CalculatorExample.Tests\CalculatorExample.Tests\bin\AutoTest.Net\_tmpIntermediateAT\CalculatorExample.Tests.csprojResolveAssemblyReference.cache
+C:\Code\Learning\CSharpPatterns\SolidPrinciples\LiscovSubstiutionPrinciple\CalculatorExample.Tests\CalculatorExample.Tests\bin\AutoTest.Net\_tmpIntermediateAT\CalculatorExample.Tests.dll
+C:\Code\Learning\CSharpPatterns\SolidPrinciples\LiscovSubstiutionPrinciple\CalculatorExample.Tests\CalculatorExample.Tests\bin\AutoTest.Net\_tmpIntermediateAT\CalculatorExample.Tests.pdb
+C:\Code\Learning\CSharpPatterns\SolidPrinciples\LiscovSubstiutionPrinciple\CalculatorExample.Tests\CalculatorExample.Tests\bin\AutoTest.Net\CalculatorExample.Tests.dll
+C:\Code\Learning\CSharpPatterns\SolidPrinciples\LiscovSubstiutionPrinciple\CalculatorExample.Tests\CalculatorExample.Tests\bin\AutoTest.Net\CalculatorExample.Tests.pdb
