@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorExample.Tests", "CalculatorExample.Tests\CalculatorExample.Tests.csproj", "{C172A082-405B-42BF-9591-8AC0B106FC03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A149D748-19F1-45A2-AAD1-218F1EE8A5B8}"
+	ProjectSection(SolutionItems) = preProject
+		CalculatorExample.Tests.vsmdi = CalculatorExample.Tests.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorExample.Domain", "CalculatorExample.Domain\CalculatorExample.Domain.csproj", "{93531B53-1D22-4610-886E-DD60BB295E2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C172A082-405B-42BF-9591-8AC0B106FC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C172A082-405B-42BF-9591-8AC0B106FC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C172A082-405B-42BF-9591-8AC0B106FC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C172A082-405B-42BF-9591-8AC0B106FC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93531B53-1D22-4610-886E-DD60BB295E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93531B53-1D22-4610-886E-DD60BB295E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93531B53-1D22-4610-886E-DD60BB295E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93531B53-1D22-4610-886E-DD60BB295E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CalculatorExample.Tests.vsmdi
+	EndGlobalSection
+EndGlobal
