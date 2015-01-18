@@ -10,7 +10,16 @@ namespace TicketCalculator.Tests
         public void WhenAddingASingleTicket_ItShouldReturnTheCorrectAmount()
         {
             var ticketCalculator = new TicketCalculator.Domain.TicketCalculator();
-            var result = ticketCalculator.Calculate();
+            var result = ticketCalculator.Calculate(true);
             Assert.AreEqual(result, 10.00);
         }
+
+        [TestMethod]
+        public void WhenAddingAReturnTicket_ItShouldReturnTheCorrectAmount()
+        {
+            var ticketCalculator = new TicketCalculator.Domain.TicketCalculator();
+            var result = ticketCalculator.Calculate(false);
+            Assert.AreEqual(result, 16.00);
+        }
+    }
 }
