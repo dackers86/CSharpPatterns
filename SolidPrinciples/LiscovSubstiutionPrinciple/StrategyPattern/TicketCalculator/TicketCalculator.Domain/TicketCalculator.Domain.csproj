@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITicketStrategy.cs" />
+    <Compile Include="ReturnTicket.cs" />
+    <Compile Include="SeasonTicket.cs" />
+    <Compile Include="SingleTicket.cs" />
     <Compile Include="TicketCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

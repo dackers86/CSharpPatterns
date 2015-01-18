@@ -8,20 +8,16 @@ namespace TicketCalculator.Domain
 {
     public class TicketCalculator
     {
-        public double Calculate(string type)
+        private readonly ITicketStrategy _ticketStrategy;
+
+        public TicketCalculator(ITicketStrategy ticketStrategy)
         {
-            if(type == "Single")
-            {
-                return 10.00;
-            }
-            else if (type == "Return")
-            {
-                return 16.00;
-            }
-            else
-            {
-                return 180.00;
-            }
+            _ticketStrategy = ticketStrategy;
+        }
+
+        public double Calculate()
+        {
+            return _ticketStrategy.CalculateBasePrice();
         }
     }
 }
