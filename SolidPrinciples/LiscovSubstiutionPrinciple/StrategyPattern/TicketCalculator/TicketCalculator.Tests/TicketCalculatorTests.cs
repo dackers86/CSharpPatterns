@@ -10,7 +10,7 @@ namespace TicketCalculator.Tests
         public void WhenAddingASingleTicket_ItShouldReturnTheCorrectAmount()
         {
             var ticketCalculator = new TicketCalculator.Domain.TicketCalculator();
-            var result = ticketCalculator.Calculate(true);
+            var result = ticketCalculator.Calculate("Single");
             Assert.AreEqual(result, 10.00);
         }
 
@@ -18,8 +18,16 @@ namespace TicketCalculator.Tests
         public void WhenAddingAReturnTicket_ItShouldReturnTheCorrectAmount()
         {
             var ticketCalculator = new TicketCalculator.Domain.TicketCalculator();
-            var result = ticketCalculator.Calculate(false);
+            var result = ticketCalculator.Calculate("Return");
             Assert.AreEqual(result, 16.00);
+        }
+
+        [TestMethod]
+        public void WhenAddingASeasonTicket_ItShouldReturnTheCorrectAmount()
+        {
+            var ticketCalculator = new TicketCalculator.Domain.TicketCalculator();
+            var result = ticketCalculator.Calculate("Season");
+            Assert.AreEqual(result, 180.00);
         }
     }
 }

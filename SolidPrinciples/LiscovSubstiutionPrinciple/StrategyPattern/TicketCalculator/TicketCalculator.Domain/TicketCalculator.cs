@@ -8,9 +8,20 @@ namespace TicketCalculator.Domain
 {
     public class TicketCalculator
     {
-        public double Calculate(bool IsSingle)
+        public double Calculate(string type)
         {
-            return IsSingle ? 10.00 : 16.00;
+            if(type == "Single")
+            {
+                return 10.00;
+            }
+            else if (type == "Return")
+            {
+                return 16.00;
+            }
+            else
+            {
+                return 180.00;
+            }
         }
     }
 }
