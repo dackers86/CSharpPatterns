@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketCalculator.Tests", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketCalculator.Domain", "TicketCalculator.Domain\TicketCalculator.Domain.csproj", "{29688642-4D09-4AFC-8F63-6593A8F7ECC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketCalculator.TicketStrategy", "TicketCalculator.TicketStrategy\TicketCalculator.TicketStrategy.csproj", "{7BA17889-EFC9-4931-9BB1-00E3C0298CB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29688642-4D09-4AFC-8F63-6593A8F7ECC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29688642-4D09-4AFC-8F63-6593A8F7ECC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29688642-4D09-4AFC-8F63-6593A8F7ECC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA17889-EFC9-4931-9BB1-00E3C0298CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA17889-EFC9-4931-9BB1-00E3C0298CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA17889-EFC9-4931-9BB1-00E3C0298CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA17889-EFC9-4931-9BB1-00E3C0298CB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
